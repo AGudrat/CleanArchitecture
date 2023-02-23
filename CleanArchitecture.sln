@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1820E572-9B62-4BE0-A430-48832507BBCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E9E9637E-E7D1-4097-BB99-63A1CFEB83A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{70E3368C-6ED2-43B3-8152-5CAABF38B9C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\Domain\Domain.csproj", "{849DCD5F-4A1E-4C57-A77C-34855C4F032E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\Application\Application.csproj", "{E98CA77B-7264-4B68-880A-7C7714F33862}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{40EC828D-CEAE-4443-A40F-F53EE6505832}"
+	ProjectSection(SolutionItems) = preProject
+		add-migration.ps1 = add-migration.ps1
+		Solution Items\travis.txt = Solution Items\travis.txt
+		update-database.ps1 = update-database.ps1
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI", "src\WebUI\WebUI.csproj", "{0DA198D0-EF01-4311-8DB5-0DF475D9245C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70E3368C-6ED2-43B3-8152-5CAABF38B9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E3368C-6ED2-43B3-8152-5CAABF38B9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E3368C-6ED2-43B3-8152-5CAABF38B9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E3368C-6ED2-43B3-8152-5CAABF38B9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849DCD5F-4A1E-4C57-A77C-34855C4F032E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849DCD5F-4A1E-4C57-A77C-34855C4F032E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849DCD5F-4A1E-4C57-A77C-34855C4F032E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849DCD5F-4A1E-4C57-A77C-34855C4F032E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98CA77B-7264-4B68-880A-7C7714F33862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98CA77B-7264-4B68-880A-7C7714F33862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98CA77B-7264-4B68-880A-7C7714F33862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98CA77B-7264-4B68-880A-7C7714F33862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA198D0-EF01-4311-8DB5-0DF475D9245C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA198D0-EF01-4311-8DB5-0DF475D9245C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA198D0-EF01-4311-8DB5-0DF475D9245C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA198D0-EF01-4311-8DB5-0DF475D9245C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70E3368C-6ED2-43B3-8152-5CAABF38B9C6} = {1820E572-9B62-4BE0-A430-48832507BBCC}
+		{849DCD5F-4A1E-4C57-A77C-34855C4F032E} = {1820E572-9B62-4BE0-A430-48832507BBCC}
+		{E98CA77B-7264-4B68-880A-7C7714F33862} = {1820E572-9B62-4BE0-A430-48832507BBCC}
+		{0DA198D0-EF01-4311-8DB5-0DF475D9245C} = {1820E572-9B62-4BE0-A430-48832507BBCC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DF75E5C-47C4-47C5-97C4-6D3A61868B2D}
+	EndGlobalSection
+EndGlobal
